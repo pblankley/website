@@ -1,8 +1,4 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
+/* To load a config file (particles.json) you need to host this (MAMP/WAMP/local)... */
 /*
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - callback');
@@ -16,27 +12,27 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 120,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#5E5E5E"
+        "value": "#f8f8f8"
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#5E5E5E"
+          "color": "#f8f8f8"
         },
-        "polygon": {
+        "polygon": { 
           "nb_sides": 5
         },
         "image": {
-          "src": "img/github.svg",
-          "width": 100,
+         "src": "img/github.svg",
+         "width": 100,
           "height": 100
         }
       },
@@ -45,13 +41,13 @@ particlesJS('particles-js',
         "random": false,
         "anim": {
           "enable": false,
-          "speed": 1,
+          "speed": 1.2,
           "opacity_min": 0.1,
           "sync": false
         }
       },
       "size": {
-        "value": 5,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": false,
@@ -62,9 +58,9 @@ particlesJS('particles-js',
       },
       "line_linked": {
         "enable": true,
-        "distance": 150,
-        "color": "#5E5E5E",
-        "opacity": 0.4,
+        "distance": 120,
+        "color": "#f8f8f8",
+        "opacity": 0.35,
         "width": 1
       },
       "move": {
@@ -73,7 +69,7 @@ particlesJS('particles-js',
         "direction": "none",
         "random": false,
         "straight": false,
-        "out_mode": "out",
+        "out_mode": "bounce",
         "attract": {
           "enable": false,
           "rotateX": 600,
