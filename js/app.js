@@ -27,7 +27,7 @@ particlesJS('particles-js',
           "width": 0,
           "color": "#f8f8f8"
         },
-        "polygon": 
+        "polygon": { 
           "nb_sides": 5
         },
         "image": {
